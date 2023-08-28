@@ -1,5 +1,7 @@
 # Deep Reinforcement Learning for Pokémon Battles
 
+![Pokémon battling.](banner.jpg)
+
 Repository for training a Deep-Q-Network (DQN) to learn how to play Pokémon battles. 
 
 ## Table of Contents
