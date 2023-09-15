@@ -52,7 +52,7 @@ async def main():
     dqn.compile(Adam(learning_rate=0.00025), metrics=["mae"])
 
     print("Loading weights...")
-    dqn.load_weights(f'./results-mbp/dqn_{BATTLE_FORMAT}_weights.h5f')
+    dqn.load_weights(f'./results/dqn_{BATTLE_FORMAT}_weights.h5f')
     print("Weights loaded - now waiting for challenge")
     player = TrainedPlayer(model=dqn.model, rlplayer=train_env)
     username = ""
